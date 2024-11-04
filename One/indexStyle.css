@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+.header, .footer {
+    background: #333;
+    color: #fff;
+    grid-column: 1 / -1;
+}
+
+.nav {
+    background: #666;
+    color: #fff;
+}
+
+.sidebar {
+    background: #999;
+    color: #fff;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto -fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+.article {
+    background: #ccc;
+    padding: 20px;
+}
