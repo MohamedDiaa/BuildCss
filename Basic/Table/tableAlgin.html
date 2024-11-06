@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Horizontal Alignment</title>
+    <style>
+        .first-data {
+            text-align: left;
+        }
+
+        .second-data {
+            text-align: right;
+        }
+
+        .third-data {
+            text-align: center;
+        }
+
+        .fourth-data {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tr:hover {
+            background-color: beige;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h2>Horizontal alignment</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>text-align: left</th>
+                <th>text-align: right</th>
+                <th>text-align: center</th>
+                <th>text-align:justify</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-data">Left</td>
+                <td class="second-data">Right</td>
+                <td class="third-data">Center</td>
+                <td class="fourth-data">Justify the content</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

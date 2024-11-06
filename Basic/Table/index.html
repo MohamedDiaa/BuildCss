@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        /* styles table with fixed layout */
+        table {
+            width: 500px;
+            table-layout: fixed;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Location
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    James
+                </td>
+                <td>
+                    This table cell contains large amount of the text.
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Robert
+                </td>
+                <td>
+                    New york
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
