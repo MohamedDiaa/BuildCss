@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Button Styling</title>
+
+    <style>
+        .button {
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 10px;
+            padding: 12px 18px;
+            border-radius: 4px;
+        }
+
+        .button1 {
+            background-color: purple;
+        }
+
+        .button1:hover {
+            box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.44);
+        }
+
+        .button2 {
+            color: black;
+            border: 1px solid black;
+            transition: all 0.4s ease;
+        }
+
+        .button2:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .button3 {
+            background-color: red;
+            transition: transform 0.5s ease;
+        }
+
+        .button3:hover {
+            transform: translateY(-5px);
+            color: black;
+        }
+
+        .button4 {
+            border-radius: 0px;
+            background-color: black;
+            transition: all 0.4s ease;
+            border: 1px solid black;
+        }
+
+        .button4:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .button5 {
+            background: linear-gradient(to right, orange, red);
+            transform: all 0.3s ease;
+        }
+
+        .button5:hover {
+            background: linear-gradient(to right, red, orange);
+        }
+
+        .button:active {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="button button1">Button 1</button>
+    <button class="button button2">Button 2</button>
+    <button class="button button3">Button 3</button>
+    <button class="button button4">Button 4</button>
+    <button class="button button5">Button 5</button>
+</body>
+
+</html>

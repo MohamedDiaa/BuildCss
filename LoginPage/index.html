@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html {
+            font-family: sans-serif, Arial, Helvetica, sans-serif;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: white;
+            justify-content: right;
+            display: flex;
+            padding: 10px;
+        }
+        .caption {
+            font-weight: lighter;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight:bold;
+        }
+        input {
+            width: auto;
+            max-width: fit-content;
+            padding: 10px;
+            border-radius: 5px;
+            border-width: 1px;
+        }
+        .googlebutton {
+            width: 300px;
+            background-color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+
+        }
+      .signupbutton {
+        width: 300px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        box-shadow: none;
+      }
+
+      .aligncenter {
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="">
+
+        </div>
+
+        <div class="Account">
+
+            <div>Wellfound <span style="color: red;">:</span></div>
+            <div> <h1>Create Account</h1></div>
+            <div class="caption aligncenter">Find your next opportunity!</div>
+
+            <button class="googlebutton">Sign up with Google</button>
+             
+            <div class="aligncenter">or sign up with Email</div>
+            <div>
+                <form action="">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="enter text"> 
+     
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="mail@website.com">
+     
+                    <label for="password">password</label>
+                    <input type="password" placeholder="min 8 characters">
+     
+                    <button class="signupbutton">Sign up</button>
+                 </form>
+            </div>
+        
+            <div>By Continuing you accept our standard <a href="#terms">terms and<br> conditions</a> 
+                and our <a href="#privacy">privacy policy</a></div>
+        </div>
+    </div>
+    
+</body>
+</html>
