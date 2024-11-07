@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Images</title>
+    <style>
+        .styled-image .img {
+            width: 280px;
+            height: 200px;
+        }
+        .image-card {
+            max-width: 200px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .image-card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Original Image</h2>
+
+    <img src="https://www.programiz.com/blog/content/images/2020/11/intro-c-banner-1-1.png"
+        alt="Avatar of a standing girl" />
+
+    <div class="styled-image">
+        <h2>After setting up width and height properties</h2>
+        <img src="https://www.programiz.com/blog/content/images/2020/11/intro-c-banner-1-1.png"
+            alt="Avatar of a standing girl" />
+    </div>
+
+    <div class="image-card">
+        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="Image Description" />
+        <div class="card-content">
+            <p>Image Card</p>
+        </div>
+    </div>
+</body>
+
+</html>

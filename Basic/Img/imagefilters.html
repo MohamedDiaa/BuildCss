@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image filtering</title>
+    <style>
+        div {
+            display: inline-block;
+            margin: 12px;
+        }
+        img {
+            max-width: 200px;
+        }
+        img.blur {
+            filter: blur(3px);
+        }
+        img.brightness {
+            filter: brightness(150%);
+        }
+        img.contrast {
+            filter: contrast(200%);
+        }
+        img.sepia {
+            filter: sepia(100%);
+        }
+        img.grayscale {
+            filter: grayscale(100%);
+        }
+        img.hue-rotate {
+            filter: hue-rotate(90deg);
+        }
+        img.invert {
+            filter: invert(150%);
+        }
+        img.saturate {
+            filter: saturate(5);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>filter: blur(3px);</p>
+        <img class="blur"
+            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="buiilding"/>
+    </div>
+    <div>
+        <p>filter: brightness(150%);</p>
+        <img class="brightness"
+            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="buiilding"  />
+    </div>
+    <div>
+        <p>filter: contrast(200%);</p>
+        <img class="contrast"
+            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt="buiilding"  />
+    </div>
+    <div>
+        <p>filter: sepia(100%)</p>
+        <img class="sepia"
+        src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="buiilding"  />
+    </div>
+    <div>
+        <p>filter: greyscale(100%);</p>
+        <img class="grayscale"
+        src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="buiilding"  />
+    </div>
+    <div>
+        <p>filter: hue-rotate(90deg);</p>
+        <img class="huerotate"
+        src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="buiilding"  />
+    </div>
+    <div>
+        <p>filter: invert(150%)</p>
+        <img class="invert"
+        src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="buiilding"  />
+    </div>
+    <div>
+        <p>filter: saturate(5);</p>
+        <img class="saturate"
+        src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        alt="buiilding"  />
+    </div>
+</body>
+
+</html>
